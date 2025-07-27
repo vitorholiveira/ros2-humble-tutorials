@@ -1,0 +1,44 @@
+# C/C++ build artifacts
+*.a
+*.so
+*.o
+*.d
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ROS 2 Colcon Workspaces
+# Ignore the build, install, and log directories for any workspace
+# located in a subdirectory of the repository root (e.g., ws1/, ws2/).
+*/build/
+*/install/
+*/log/
+
+# ROS bags and databases
+*.bag
+*.db3
+
+# IDE & Editor specific files
+# VSCode
+.vscode/
+# CLion
+.idea/
+# Qt Creator
+*.creator*
+# Eclipse
+.project
+.cproject
+.settings/
+# Vim
+*~
+.*.swp
+.*.swo
+
+# OS-generated files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
