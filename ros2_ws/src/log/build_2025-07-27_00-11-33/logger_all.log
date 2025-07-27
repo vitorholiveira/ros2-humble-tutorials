@@ -6,7 +6,7 @@
 [0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src'
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src'
 [0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -37,7 +37,7 @@
 [0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
-[0.185s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.185s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
 [0.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
 [0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
 [0.214s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
@@ -51,13 +51,13 @@
 [0.218s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
 [0.222s] DEBUG:colcon.colcon_core.event_reactor:joined thread
 [0.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
-[0.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/local_setup.ps1'
-[0.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/_local_setup_util_ps1.py'
-[0.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/setup.ps1'
-[0.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/local_setup.sh'
-[0.225s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/_local_setup_util_sh.py'
-[0.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/setup.sh'
-[0.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/local_setup.bash'
-[0.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/setup.bash'
-[0.227s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/local_setup.zsh'
-[0.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/first_ws/src/install/setup.zsh'
+[0.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/local_setup.ps1'
+[0.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/_local_setup_util_ps1.py'
+[0.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/setup.ps1'
+[0.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/local_setup.sh'
+[0.225s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/_local_setup_util_sh.py'
+[0.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/setup.sh'
+[0.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/local_setup.bash'
+[0.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/setup.bash'
+[0.227s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/local_setup.zsh'
+[0.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vitor/Documents/repos/ros2-humble-tutorials/ros2_ws/src/install/setup.zsh'
