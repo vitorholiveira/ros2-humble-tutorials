@@ -14,4 +14,5 @@ These are the notes I've taken during my ROS2 learning journey. My main resource
 
 ## Build and run:
 * Run `rosdep` in the root of the workspace to check missing deps before building: `rosdep install -i --from-path src --rosdistro humble -y`
+* Sometimes it is needed to source the `install/setup.bash` again
 * Build the packages: `colcon build --packages-select <pkg_name>`
